@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">NoticeDemo</string>
+
+
+    <string name="action_settings">Settings</string>
+    <string name="simple_toast">简单文本Toast</string>
+    <string name="custom_toast">自定义View的Toast</string>
+    <string name="simple_notification">基本Notification</string>
+    <string name="custom_notificaiton">自定义View的Notification</string>
+</resources>

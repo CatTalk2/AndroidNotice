@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#26AE90"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/music_image"
+        android:layout_alignParentLeft="true"
+        android:src="@mipmap/image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_toRightOf="@+id/music_image"
+        android:gravity="center_vertical"
+        android:paddingTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="围墙"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:id="@+id/music_title"
+            android:layout_alignParentTop="true"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"/>
+        <ImageButton
+            android:id="@+id/btn_previous"
+            android:background="#00000000"
+            android:src="@mipmap/ic_action_previous"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent" />
+        <ImageButton
+            android:id="@+id/btn_paly"
+            android:background="#00000000"
+            android:src="@mipmap/ic_action_play"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent" />
+        <ImageButton
+            android:id="@+id/btn_next"
+            android:background="#00000000"
+            android:src="@mipmap/ic_action_next"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,17 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_marginLeft="30dp"
+    android:layout_marginRight="30dp"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    <TextView
+        android:text="这是通过通知进入的Activity"
+        android:textColor="#26AE90"
+        android:textSize="20sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
